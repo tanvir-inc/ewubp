@@ -1,0 +1,72 @@
+body{
+background:black;
+}
+.logo, .footer {
+  text-align: center;
+}
+.header {
+  text-align: center;
+  color: #c01d2e;
+  padding: 10px;
+}
+.nav{
+  overflow:hidden;
+  background-color:#c01d2e;
+}
+.nav a{
+  float:left;
+  padding:16px 14px;
+  text-decoration:none;
+  color:white;
+}
+.nav a:hover{
+  background-color:tomato;
+}
+.nav a.active{
+  background-color:white;
+color:black;
+}
+.body {
+color:white;
+margin:0px auto;
+font-size: 25px;
+  text-align: center;
+  height: auto;
+  padding: 10px 15px;
+  max-width: 90%;
+}
+.btn {
+  text-align: center;
+  margin-top:25px;
+}
+
+.btn a {
+  color: white;
+  background-color: #c01d2e;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 21px;
+}
+
+.btn a:hover {
+  background-color: tomato;
+  box-shadow: 5px 5px white;
+}
+.reg-form{
+	text-align:center;
+}
+input{
+	padding:10px 20px;
+	border:2px solid #c01d2e;
+	border-radius:15px;
+}
+main{
+  min-height:45vh;
+}
+.footer {
+  color: white;
+  background-color: #c01d2e;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
